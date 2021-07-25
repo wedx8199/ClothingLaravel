@@ -1,0 +1,50 @@
+   <script>
+    var msg = '{{Session::get('alert')}}';
+    var exist = '{{Session::has('alert')}}';
+    if(exist){
+      alert(msg);
+    }
+  </script>
+
+
+
+
+
+
+
+onclick="return confirm('Delete?')"
+
+
+
+<?php
+if (!isset($_SESSION['username']))
+{
+    header("Location: admin_login");
+    die();
+}
+?>
+
+
+
+zoom
+admin
+
+
+
+
+
+muahang, addsp
+postCheckout
+
+
+
+
+
+
+
+
+
+con 6 sp
+trong cart 4
+muon mua 1
+if trong cart + muon mua > con, ko cho mua
